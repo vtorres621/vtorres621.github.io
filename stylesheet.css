@@ -1,4 +1,4 @@
-/* latin-ext */
+/* latin-ext */  
 @font-face {
   font-family: 'Lato';
   font-style: italic;
@@ -109,6 +109,10 @@ name {
   width: 160px;
   height: 160px;
   position: relative;
+  padding-top: 5px;
+  /* margin: auto;
+  width: 40%; */
+  /* display: inline; */
 }
 
 .two {
@@ -128,4 +132,14 @@ name {
 
 span.highlight {
   background-color: #ffffd0;
+}
+
+.side-image{
+  /* margin: auto;
+  display: block; */
+}
+
+body{
+  padding-left:10px;
+  padding-right:10px;
 }
